@@ -1,4 +1,4 @@
-import RetroCorporateGuy from '@/components/welcome/retro-corporate-guy';
+
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 
@@ -10,7 +10,7 @@ export default function WelcomePage() {
           Welcome to ExpenseFlow
         </h1>
         <p className="max-w-3xl mx-auto text-lg md:text-xl text-muted-foreground mb-8">
-          A fresh starting point for your Next.js application. We've cleared out the previous functionality to give you a clean slate, complete with this interactive character to inspire your next idea.
+          A fresh starting point for your Next.js application. We've cleared out the previous functionality to give you a clean slate.
         </p>
         <div className="flex justify-center gap-4">
             <Link href="/dashboard">
@@ -20,10 +20,6 @@ export default function WelcomePage() {
                 <Button variant="outline" size="lg">About Project</Button>
             </Link>
         </div>
-      </div>
-
-      <div className="relative h-[300px] sm:h-[400px] md:h-[500px] w-full">
-        <RetroCorporateGuy />
       </div>
 
       <div className="bg-background py-24 sm:py-32">
