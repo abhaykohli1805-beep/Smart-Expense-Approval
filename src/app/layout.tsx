@@ -3,7 +3,6 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
 import { FirebaseClientProvider } from '@/firebase/client-provider';
 import Header from '@/components/layout/header';
-import AnimatedBackground from '@/components/background/animated-background';
 
 export const metadata: Metadata = {
   title: 'ExpenseFlow',
@@ -22,9 +21,8 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
       </head>
-      <body className="font-body antialiased">
+      <body className="font-body antialiased bg-background">
         <FirebaseClientProvider>
-          <AnimatedBackground />
           <div className="relative z-10 flex min-h-screen w-full flex-col">
             <Header />
             <main className="flex-1">

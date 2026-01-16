@@ -2,7 +2,6 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import { AnimatePresence, motion } from "framer-motion";
 import ExpenseItem from "./expense-item";
 import type { Expense, ExpenseStatus } from "@/lib/types";
 import { useToast } from "@/hooks/use-toast";
@@ -111,24 +110,17 @@ export default function ExpenseList({ initialExpenses }: ExpenseListProps) {
           </div>
         ) : (
           <ul className="space-y-3">
-            <AnimatePresence>
               {filteredExpenses.map((expense) => (
-                <motion.li
+                <li
                   key={expense.id}
-                  layout
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  exit={{ opacity: 0, scale: 0.95 }}
-                  transition={{ duration: 0.3 }}
                 >
                   <ExpenseItem
                     expense={expense}
                     onUpdateStatus={handleUpdateStatus}
                     isUpdating={loadingStates[expense.id] || false}
                   />
-                </motion.li>
+                </li>
               ))}
-            </AnimatePresence>
           </ul>
         )}
       </div>
