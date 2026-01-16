@@ -1,3 +1,28 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "avatar1",
+      "description": "Male employee avatar",
+      "imageUrl": "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3Njg1NzI1MTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "avatar2",
+      "description": "Female employee avatar",
+      "imageUrl": "https://images.unsplash.com/photo-1546961329-78bef0414d7c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2ODU1NDczMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "avatar3",
+      "description": "Male employee avatar",
+      "imageUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3Njg1NjA0NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "avatar4",
+      "description": "Female employee avatar",
+      "imageUrl": "https://images.unsplash.com/photo-1551836022-deb4988cc6c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8d29tYW4lMjBoZWFkc2hvdHxlbnwwfHx8fDE3Njg1NDQ1MzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman headshot"
+    }
+  ]
 }
