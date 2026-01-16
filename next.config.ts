@@ -35,6 +35,9 @@ const nextConfig: NextConfig = {
       ? 'https://your-production-url.com' // Replace with your actual production URL
       : 'http://localhost:9002',
   },
+  devServer: {
+    allowedDevOrigins: ["https://*.cloudworkstations.dev"],
+  },
 };
 
 export default nextConfig;
