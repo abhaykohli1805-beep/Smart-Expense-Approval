@@ -19,7 +19,7 @@ export default function ExpenseItem({ expense, onUpdateStatus, isUpdating }: Exp
   const handleReject = () => onUpdateStatus(id, "Rejected");
 
   return (
-    <Card className="p-4 bg-card/80 backdrop-blur-sm transition-all duration-300 hover:bg-card hover:shadow-xl hover:-translate-y-1">
+    <Card className="p-4 bg-card/60 backdrop-blur-md transition-all duration-300 hover:bg-card/80 hover:shadow-xl hover:-translate-y-1 border border-border/10">
       <div className="flex flex-wrap items-center justify-between gap-4">
         <div className="flex items-center gap-4">
           <Avatar>
