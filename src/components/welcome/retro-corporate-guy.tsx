@@ -74,7 +74,7 @@ export default function RetroCorporateGuy() {
 
       {/* Head */}
       <g transform="translate(0, 10)" filter="url(#shadow)">
-        <path d="M110 320 C 110 180, 290 180, 290 320 L 270 340 L 130 340 Z" fill="hsl(var(--accent))" stroke="hsl(var(--foreground))" strokeWidth="4"/>
+        <path d="M110 320 C 110 180, 290 180, 290 320 L 270 340 L 130 340 Z" fill="#F2D5B8" stroke="hsl(var(--foreground))" strokeWidth="4"/>
       </g>
       
       {/* Hair */}
