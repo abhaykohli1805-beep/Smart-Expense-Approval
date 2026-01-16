@@ -1,6 +1,5 @@
 
 import Link from 'next/link';
-import UserNav from '@/components/auth/user-nav';
 import { Button } from '../ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '../ui/sheet';
 import { Menu, Mountain } from 'lucide-react';
@@ -22,6 +21,12 @@ export default function Header() {
               className="transition-colors hover:text-foreground/80 text-foreground"
             >
               Home
+            </Link>
+            <Link
+              href="/dashboard"
+              className="transition-colors hover:text-foreground/80 text-foreground/60"
+            >
+              Dashboard
             </Link>
             <Link
               href="/about"
@@ -56,6 +61,7 @@ export default function Header() {
                 </Link>
                 <div className="flex flex-col space-y-3">
                   <Link href="/" className="text-lg font-medium">Home</Link>
+                  <Link href="/dashboard" className="text-lg font-medium text-muted-foreground">Dashboard</Link>
                   <Link href="/about" className="text-lg font-medium text-muted-foreground">About</Link>
                   <Link href="/help" className="text-lg font-medium text-muted-foreground">Help</Link>
                 </div>
@@ -64,7 +70,7 @@ export default function Header() {
           </div>
 
         <div className="flex flex-1 items-center justify-end">
-          <UserNav />
+          {/* UserNav removed */}
         </div>
       </div>
     </header>
